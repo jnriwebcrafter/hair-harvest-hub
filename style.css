@@ -1,0 +1,28 @@
+body {
+    background-image: url(pictures/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#logo {
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 50%;
+    filter: invert();
+}
+
+.center {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
